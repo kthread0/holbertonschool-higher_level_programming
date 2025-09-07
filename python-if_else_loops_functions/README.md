@@ -1,2 +1,3 @@
 # Python
-Python conditionals (if, else, etc), loops (for, while)
+
+Python conditionals (if, else, etc.), loops (for, while)
