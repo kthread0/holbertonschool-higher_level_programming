@@ -1,0 +1,5 @@
+>>> lookup = __import__('0-lookup').lookup
+>>> class A: pass
+...
+>>> print('lookup OK')
+lookup OK
