@@ -28,7 +28,7 @@ def text_indentation(text):
 		i += 1
 	# normalize trailing newlines: ensure exactly one final newline
 	result = result.rstrip('\n') + '\n'
-
+	
 	# print each line without extra leading/trailing spaces
 	parts = result.split('\n')
 	# drop the final empty element created by a trailing newline

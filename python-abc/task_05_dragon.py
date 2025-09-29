@@ -3,21 +3,21 @@
 
 
 class SwimMixin:
-    """Provide swim behavior."""
-
-    def swim(self):
-        print("The creature swims!")
+	"""Provide swim behavior."""
+	
+	def swim(self):
+		print("The creature swims!")
 
 
 class FlyMixin:
-    """Provide fly behavior."""
-
-    def fly(self):
-        print("The creature flies!")
+	"""Provide fly behavior."""
+	
+	def fly(self):
+		print("The creature flies!")
 
 
 class Dragon(SwimMixin, FlyMixin):
-    """Dragon composed from SwimMixin and FlyMixin."""
-
-    def roar(self):
-        print("The dragon roars!")
+	"""Dragon composed from SwimMixin and FlyMixin."""
+	
+	def roar(self):
+		print("The dragon roars!")

@@ -3,6 +3,7 @@
 This directory contains exercises for practicing inheritance in Python (Holberton School).
 
 Files:
+
 - 0-lookup.py: function to list attributes/methods of an object
 - 1-my_list.py: MyList class inheriting from list with print_sorted
 - 2-is_same_class.py: check exact class equality
