@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-""" 
+"""
 Module that defines a function to return the JSON representation of an object
 """
 
