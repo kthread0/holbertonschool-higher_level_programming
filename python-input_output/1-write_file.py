@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-"""Write a string to a text file"""
+"""
+Write a string to a text file
+"""
 
 
 def write_file(filename="", text=""):
