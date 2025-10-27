@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Displays all values in the states table where name matches (SQL injection safe)"""
+"""Displays all values in states table where name matches - SQL safe"""
 import MySQLdb
 import sys
 
@@ -12,7 +12,8 @@ if __name__ == "__main__":
         db=sys.argv[3]
     )
     cursor = db.cursor()
-    cursor.execute("SELECT * FROM states WHERE name = %s ORDER BY id ASC", (sys.argv[4],))
+    cursor.execute("SELECT * FROM states WHERE name = %s ORDER BY id ASC",
+                   (sys.argv[4],))
     rows = cursor.fetchall()
     for row in rows:
         print(row)
